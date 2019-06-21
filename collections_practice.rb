@@ -35,6 +35,8 @@ def kesha_maker(array)
       word.start_with?("a")
   end
 end
+#def find_a(array)
+#array.find_all {|word| word[0] == ("a")}
 
 def sum_array(array)
   array.sum
@@ -43,7 +45,17 @@ end
 def add_s(array)
   array.each do |string|
     if string != "feet"
-  string << "s"
+    string << "s"
 end
 end
 end
+
+# #def add_s(array)
+#   array.collect do |word|
+#     if array[1] == word
+#       word
+#     else
+#       word + "s"
+#     end
+#   end
+# end
